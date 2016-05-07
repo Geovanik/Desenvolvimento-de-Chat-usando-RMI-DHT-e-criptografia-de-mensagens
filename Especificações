@@ -1,3 +1,17 @@
-Implementações:
+Execução da aplicação:
 
+A aplicação funciona em terminais diferentes.Acesse a pasta bin do projeto e execute os comandos:
 
+Terminal 1.
+rmic server.ChatServer
+rmic client.ChatClient
+rmiregistry
+
+Terminal 2.
+java server.ChatServerDriver 
+
+Terminal 3.
+java client.ChatClientDriver NOME1
+
+Terminal 4.
+java client.ChatClientDriver NOME2
