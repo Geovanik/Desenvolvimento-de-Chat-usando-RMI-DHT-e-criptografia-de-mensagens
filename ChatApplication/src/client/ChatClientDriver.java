@@ -12,5 +12,6 @@ public class ChatClientDriver {
 		String chatServerURL = "rmi://localhost/RMIChatServer";
 		ChatServerIF chatServer = (ChatServerIF) Naming.lookup(chatServerURL);
 		new Thread(new ChatClient(args[0], chatServer)).start();
+		//manda id para dht
 	} 
 }
