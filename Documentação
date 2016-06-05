@@ -2,6 +2,8 @@ Ao conectar ao chat o usuário formece seu nome e visualiza os nomes dos usuári
 
 Digitando a palavra end o usuário sai de uma conversa.
 
+Para sair do chat digite sairdef depois de sair de uma conversa.
+
 Para iniciar uma conversa os dois usuarios precisam indicar com quem querem falar.
 
 Execução da aplicação:
